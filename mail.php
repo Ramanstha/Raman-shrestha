@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_message .= "Message:\n$message\n";
 
     // Set the "From" address - VERY IMPORTANT for Gmail
-    $from = 'remon.stha22@ramanstha.com.np'; // Replace with a valid email on your domain
+    $from = ' https://ramanstha.com.np'; // Replace with a valid email on your domain
 
     // Construct email headers
     $headers = "From: " . strip_tags($from) . "\r\n";
